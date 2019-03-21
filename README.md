@@ -2,6 +2,7 @@
 A small Soundboard/Mp3 player written in Python.
 
 You can control the application through the GUI but also with your keyboard.
+
 1-9 : A song of your choice
 R : restart
 P, space bar : play
