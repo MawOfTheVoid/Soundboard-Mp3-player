@@ -4,7 +4,6 @@ import button as btn
 import player
 from filehandler import is_file_there
 import misc
-import icon
 
 
 def higher_volume():
@@ -54,9 +53,7 @@ is_file_there()
 window = gui.Tk()
 window.title("Soundboard")
 
-adress = icon.get_icon()
-window.iconbitmap(default=adress)
-icon.delete_icon(adress)
+window.iconbitmap(default="lavalamp.ico")
 
 
 delete_manager = misc.DelManager()
